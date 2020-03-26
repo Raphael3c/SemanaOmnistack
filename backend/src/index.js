@@ -1,5 +1,5 @@
 const express = require('express');
-const cors = requite('cors');
+const cors = require('cors');
 const routes = require("./routes");
 
 
@@ -35,4 +35,4 @@ app.use(routes);
    */
 
 
-app.listen(3030);
+app.listen(3000);
